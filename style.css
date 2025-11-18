@@ -3,16 +3,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #c2c1c1;
+    background: #f5f0f0;
     font-family: Arial, Helvetica, sans-serif;
     
 }
 
 .calculator {
-    background: #140101;
+    background: #dfc4c4;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 15px rgba(2, 18, 22, 0.938);
 }
 
 #display {
@@ -39,13 +39,13 @@ button {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    background: #555;
+    background: #585757;
     color: white;
     transition: 0.2s;
 }
 
 button:hover {
-    background: #777;
+    background: #a7a4a4;
 }
 
 .equal {
@@ -53,7 +53,7 @@ button:hover {
 }
 
 .equal:hover {
-    background: #e67e22;
+    background: #f8c99f;
 }
 
 .zero {
